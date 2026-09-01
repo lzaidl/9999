@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "وصال - دردشة وتعارف",
+    "slug": "wesal-chat-dating",
+    "version": "3.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "platforms": ["android", "ios", "web"],
+    "githubUrl": "https://github.com/lzaidl/9999",
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "يسمح وصال بالوصول إلى الصور والفيديو لاستخدامها في المنشورات.",
+          "cameraPermission": "يسمح وصال باستخدام الكاميرا لالتقاط الصور والفيديو.",
+          "microphonePermission": false
+        }
+      ]
+    ],
+    "android": {
+      "package": "com.wesal.chatdating"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single"
+    },
+    "experiments": {
+      "baseUrl": "/9999"
+    }
+  }
+}
